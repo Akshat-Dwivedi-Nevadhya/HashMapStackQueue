@@ -1,0 +1,21 @@
+import java.util.Stack;
+public class stack {
+    public static void main(String[] args) {
+        Stack<Integer> st = new Stack<>();
+        st.push(1);
+        st.push(2);
+        st.push(3);
+        st.push(4);
+        //printing te topmost data
+        System.out.println(st.peek());
+        //deleting the topmost element in the stack
+        //st.pop();
+       // System.out.println(st.peek());
+        //Searching an element in the stack
+        System.out.println(st.search(0));
+
+        //Check whether stack is empty
+        System.out.println(st.empty());
+
+    }
+}
